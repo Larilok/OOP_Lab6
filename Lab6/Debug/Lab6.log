@@ -1,0 +1,4 @@
+﻿  main.cpp
+d:\01_code\vs\lab6\lab6\lab6\src\v3header.h(249): warning C4018: '<': signed/unsigned mismatch
+  main.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  Lab6.vcxproj -> D:\01_Code\VS\Lab6\Lab6\Debug\Lab6.exe

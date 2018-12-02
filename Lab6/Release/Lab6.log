@@ -1,0 +1,4 @@
+﻿  main.cpp
+d:\01_code\vs\lab6\lab6\lab6\src\v3header.h(223): warning C4018: '<': signed/unsigned mismatch
+  d:\01_code\vs\lab6\lab6\lab6\main.cpp(15): note: see reference to function template instantiation 'std::istream &Vector::operator >><int>(std::istream &,Vector::Vec3<int> &)' being compiled
+  Lab6.vcxproj -> D:\01_Code\VS\Lab6\Lab6\Release\Lab6.exe
