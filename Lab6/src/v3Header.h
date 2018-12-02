@@ -245,7 +245,8 @@ namespace Vector {
 
 		auto isNumber = [&buffer](const char* where) ->void		
 		{ 
-			if((buffer[0] - 48) > 9 && !(buffer[0] == '-') || (buffer[0] - 48) < 0 && !(buffer[0] == '-')) throw NotaNumber(where, buffer.c_str());
+			if ((buffer[0] - 48) > 9 && !(buffer[0] == '-') && !(buffer[0] == '+') || (buffer[0] - 48) < 0 && !(buffer[0] == '-') && !(buffer[0] == '+')) 
+				throw NotaNumber(where, buffer.c_str());
 			for (int i = 1; i < buffer.length()-1; i++)
 				if ((buffer[i] - 48) > 9 || (buffer[i] - 48) < 0) throw NotaNumber(where, buffer.c_str());
 		};
